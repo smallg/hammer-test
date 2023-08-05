@@ -1,0 +1,15 @@
+{
+  "name": "lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "zip": "zip -r s3-watch.lambda.zip ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanoid": "^4.0.2"
+  }
+}
